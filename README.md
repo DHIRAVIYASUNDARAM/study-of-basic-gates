@@ -88,7 +88,7 @@ endmodule
 ![Screenshot 2024-04-13 113129](https://github.com/DHIRAVIYASUNDARAM/study-of-basic-gates/assets/165143880/c136efa3-202d-46a0-b7cb-fd7ae78f181e)
 
 **RTL**
-![Screenshot 2024-03-27 191511](https://github.com/DHIRAVIYASUNDARAM/study-of-basic-gates/assets/165143880/389139ae-8645-4bc3-9ab3-f549abee0c3c)
+![Screenshot 2024-04-13 113712](https://github.com/DHIRAVIYASUNDARAM/study-of-basic-gates/assets/165143880/9dfbf968-ffc1-4ae7-b5ed-12a6830bb5c9)
 
 
 # RESULT:
