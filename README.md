@@ -67,17 +67,17 @@ Y= A⊕B
 # DEVELOPED BY: DHIRAVIYA S
 # REGISTER NUMBER: 212223040041
  ```
- module Basic (a, b, y1, y2, y3, y4, y5, y6, y7) ;
- input a, b;
- output yl, y2, y3, y4, y5, у6, y7;
- and (yl, a, b) ;
- or (y2, a, b) ;
- not (y3,a) ;
- xor (y4, a, b) ;
- nor (y5, a, b) ;
- nand (y6, a, b) ;
- nor (y7, a, b) ;
- endmodule
+module BASICGATES(a,b,and_out,or_out,not_out,xor_out,xnor_out,nand_out,nor_out);
+input a,b;
+output and_out,or_out,not_out,xor_out,xnor_out,nand_out,nor_out;
+and G1(and_out,a,b);
+or G2(or_out,a,b);
+not G3(not_out,a);
+xor G4(xor_out,a,b);
+xnor G5(xnor_out,a,b);
+nand G6(nand_out,a,b);
+nor G7(nor_out,a,b);
+endmodule
  ```
 **Truthtable**
 
@@ -85,7 +85,7 @@ Y= A⊕B
 
 **RTL realization Output:** 
 
-![Screenshot 2024-03-27 191531](https://github.com/DHIRAVIYASUNDARAM/study-of-basic-gates/assets/165143880/ed4a1d15-066e-42ba-b532-be21f9fd60f7)
+![Screenshot 2024-04-13 113129](https://github.com/DHIRAVIYASUNDARAM/study-of-basic-gates/assets/165143880/c136efa3-202d-46a0-b7cb-fd7ae78f181e)
 
 **RTL**
 ![Screenshot 2024-03-27 191511](https://github.com/DHIRAVIYASUNDARAM/study-of-basic-gates/assets/165143880/389139ae-8645-4bc3-9ab3-f549abee0c3c)
